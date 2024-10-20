@@ -4,7 +4,7 @@
 
 int asalMi(int x){
     int asallik = 1;
-    for(int i = 2; i < x; i++){
+    for(int i = 2; i <= x/2; i++){ // Bir sayının en büyük tam böleni kendisinin yarısı olabilir. Bu yüzden (x/2)'den büyük sayıları test etmek performan kaybına sebep olur.
         if (x % i == 0){
             asallik = 0;
             break;
