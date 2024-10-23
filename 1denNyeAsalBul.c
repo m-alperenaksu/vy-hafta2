@@ -19,7 +19,8 @@ int main(){
     scanf("%d", &N);
 
     for(int i = 2; i <= N; i++){
-        if(asalMi(i)) printf("%d\n", i);
+        if(asalMi(i)) 
+            printf("%d\n", i);
     }
     return 0;
 }
